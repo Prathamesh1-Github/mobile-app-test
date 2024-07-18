@@ -1,0 +1,19 @@
+@media screen and (min-width: 481px) {
+  body {
+    background-color: #000;
+  }
+}
+
+
+@media screen and (max-width: 481px) {
+  .large-view-message-box  {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  .onboarding, .home, .local-storage, .notifications, .profile, .storage-management {
+    display: none;
+  }
+}
